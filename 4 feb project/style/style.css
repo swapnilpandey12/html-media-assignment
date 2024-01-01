@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  body {
+    
+    height: 100vh;
+    width: 100vw;
+   background-color:white;
+  }
+  
+  
+  li {
+    
+    list-style: none;
+    cursor: pointer;
+  }
+  
+
+  /* Apply styles to the links within the list */
+ul li a {
+  color: rgb(19, 19, 19); /* Set the text color to white */
+  text-decoration: none; /* Remove underlines from the links */
+}
+
+/* Optional: Hover effect to change color on mouse hover */
+ul li a:hover {
+  color: rgb(14, 14, 14); /* Change the text color on hover */
+}
+
+  
+  button {
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgb(18, 17, 17);
+    border-radius: 5px;
+    font-weight: 700;
+    
+  }
+  
+  button:hover {
+    background-color: white;
+    color: rgb(18, 155, 155);
+    border: 1px solid black;
+  }
+  
+  header {
+    
+    padding: 15px 0;
+  }
+  nav {
+    
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  nav .logo {
+    color: #131313;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .resized-gif {/* i have a big gif image and for resizing it i used to give width and height of image*/
+    
+    width: 70px; /* Set the desired width */
+    height: 41px; /* Set the desired height */
+  }
+  
+  nav ul {
+    color: #121212;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+  }
+  
+  nav ul li:hover {
+    
+    
+    text-decoration: underline;
+    font-weight: 900;
+  }
+  
+ 
+  
+ 
+  
+  .hero-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-left-section {
+    width: 60%;
+    padding: 0 8%;
+  }
+  
+  .hero-left-section h1 {
+    color: rgb(27, 27, 28);
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 16px;
+  }
+  .hero-left-section h1 span {
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    
+    padding: 0 15px;
+  }
+  
+  .hero-left-section p {
+    color: #121212;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 30px;/*for give a space between peragraph to button*/
+    
+  }
+  
+ 
+  .hero-right-section {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  
+  .hero-right-section img {
+    height: 600px;
+    width: 700px;
+    border-radius: 20%;
+  }
+  
+  /* for make the content into left corner so you have to give bottom 0 and left 0 */
+  footer {
+    color: #101010;
+    font-weight: 600;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+   
+    padding: 10px; /* Optional padding for better visibility */
+  }
+ 
+  
+
+  
